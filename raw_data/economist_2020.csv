@@ -487,6 +487,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Alabama
 2020-10-30,democratic,0.0,Alabama
 2020-10-30,republican,1.0,Alabama
+2020-10-31,democratic,0.0,Alabama
+2020-10-31,republican,1.0,Alabama
+2020-11-01,democratic,0.0,Alabama
+2020-11-01,republican,1.0,Alabama
+2020-11-02,democratic,0.0,Alabama
+2020-11-02,republican,1.0,Alabama
+2020-11-03,democratic,0.0,Alabama
+2020-11-03,republican,1.0,Alabama
 2020-03-01,democratic,0.085,Alaska
 2020-03-01,republican,0.915,Alaska
 2020-03-02,democratic,0.067,Alaska
@@ -973,8 +981,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.897,Alaska
 2020-10-29,democratic,0.049,Alaska
 2020-10-29,republican,0.951,Alaska
-2020-10-30,democratic,0.051,Alaska
-2020-10-30,republican,0.9490000000000001,Alaska
+2020-10-30,democratic,0.052000000000000005,Alaska
+2020-10-30,republican,0.948,Alaska
+2020-10-31,democratic,0.055,Alaska
+2020-10-31,republican,0.945,Alaska
+2020-11-01,democratic,0.04,Alaska
+2020-11-01,republican,0.96,Alaska
+2020-11-02,democratic,0.04,Alaska
+2020-11-02,republican,0.96,Alaska
+2020-11-03,democratic,0.051,Alaska
+2020-11-03,republican,0.9490000000000001,Alaska
 2020-03-01,democratic,0.35600000000000004,Arizona
 2020-03-01,republican,0.644,Arizona
 2020-03-02,democratic,0.353,Arizona
@@ -1461,8 +1477,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.235,Arizona
 2020-10-29,democratic,0.738,Arizona
 2020-10-29,republican,0.262,Arizona
-2020-10-30,democratic,0.779,Arizona
-2020-10-30,republican,0.221,Arizona
+2020-10-30,democratic,0.754,Arizona
+2020-10-30,republican,0.24600000000000002,Arizona
+2020-10-31,democratic,0.737,Arizona
+2020-10-31,republican,0.263,Arizona
+2020-11-01,democratic,0.708,Arizona
+2020-11-01,republican,0.292,Arizona
+2020-11-02,democratic,0.703,Arizona
+2020-11-02,republican,0.297,Arizona
+2020-11-03,democratic,0.732,Arizona
+2020-11-03,republican,0.268,Arizona
 2020-03-01,democratic,0.006999999999999999,Arkansas
 2020-03-01,republican,0.993,Arkansas
 2020-03-02,democratic,0.006999999999999999,Arkansas
@@ -1951,6 +1975,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Arkansas
 2020-10-30,democratic,0.0,Arkansas
 2020-10-30,republican,1.0,Arkansas
+2020-10-31,democratic,0.0,Arkansas
+2020-10-31,republican,1.0,Arkansas
+2020-11-01,democratic,0.0,Arkansas
+2020-11-01,republican,1.0,Arkansas
+2020-11-02,democratic,0.0,Arkansas
+2020-11-02,republican,1.0,Arkansas
+2020-11-03,democratic,0.0,Arkansas
+2020-11-03,republican,1.0,Arkansas
 2020-03-01,democratic,0.998,California
 2020-03-01,republican,0.002,California
 2020-03-02,democratic,0.9990000000000001,California
@@ -2439,6 +2471,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,California
 2020-10-30,democratic,1.0,California
 2020-10-30,republican,0.0,California
+2020-10-31,democratic,1.0,California
+2020-10-31,republican,0.0,California
+2020-11-01,democratic,1.0,California
+2020-11-01,republican,0.0,California
+2020-11-02,democratic,1.0,California
+2020-11-02,republican,0.0,California
+2020-11-03,democratic,1.0,California
+2020-11-03,republican,0.0,California
 2020-03-01,democratic,0.706,Colorado
 2020-03-01,republican,0.294,Colorado
 2020-03-02,democratic,0.672,Colorado
@@ -2927,6 +2967,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.003,Colorado
 2020-10-30,democratic,0.998,Colorado
 2020-10-30,republican,0.002,Colorado
+2020-10-31,democratic,0.997,Colorado
+2020-10-31,republican,0.003,Colorado
+2020-11-01,democratic,0.997,Colorado
+2020-11-01,republican,0.003,Colorado
+2020-11-02,democratic,0.9990000000000001,Colorado
+2020-11-02,republican,0.001,Colorado
+2020-11-03,democratic,0.9990000000000001,Colorado
+2020-11-03,republican,0.001,Colorado
 2020-03-01,democratic,0.883,Connecticut
 2020-03-01,republican,0.11699999999999999,Connecticut
 2020-03-02,democratic,0.893,Connecticut
@@ -3415,6 +3463,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Connecticut
 2020-10-30,democratic,1.0,Connecticut
 2020-10-30,republican,0.0,Connecticut
+2020-10-31,democratic,1.0,Connecticut
+2020-10-31,republican,0.0,Connecticut
+2020-11-01,democratic,1.0,Connecticut
+2020-11-01,republican,0.0,Connecticut
+2020-11-02,democratic,1.0,Connecticut
+2020-11-02,republican,0.0,Connecticut
+2020-11-03,democratic,1.0,Connecticut
+2020-11-03,republican,0.0,Connecticut
 2020-03-01,democratic,0.927,Delaware
 2020-03-01,republican,0.073,Delaware
 2020-03-02,democratic,0.938,Delaware
@@ -3903,6 +3959,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Delaware
 2020-10-30,democratic,1.0,Delaware
 2020-10-30,republican,0.0,Delaware
+2020-10-31,democratic,1.0,Delaware
+2020-10-31,republican,0.0,Delaware
+2020-11-01,democratic,1.0,Delaware
+2020-11-01,republican,0.0,Delaware
+2020-11-02,democratic,1.0,Delaware
+2020-11-02,republican,0.0,Delaware
+2020-11-03,democratic,1.0,Delaware
+2020-11-03,republican,0.0,Delaware
 2020-03-01,democratic,0.484,Florida
 2020-03-01,republican,0.516,Florida
 2020-03-02,democratic,0.579,Florida
@@ -4389,8 +4453,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.218,Florida
 2020-10-29,democratic,0.768,Florida
 2020-10-29,republican,0.23199999999999998,Florida
-2020-10-30,democratic,0.807,Florida
-2020-10-30,republican,0.193,Florida
+2020-10-30,democratic,0.752,Florida
+2020-10-30,republican,0.248,Florida
+2020-10-31,democratic,0.7559999999999999,Florida
+2020-10-31,republican,0.244,Florida
+2020-11-01,democratic,0.7440000000000001,Florida
+2020-11-01,republican,0.256,Florida
+2020-11-02,democratic,0.7809999999999999,Florida
+2020-11-02,republican,0.21899999999999997,Florida
+2020-11-03,democratic,0.8,Florida
+2020-11-03,republican,0.2,Florida
 2020-03-01,democratic,0.35600000000000004,Georgia
 2020-03-01,republican,0.644,Georgia
 2020-03-02,democratic,0.35700000000000004,Georgia
@@ -4877,8 +4949,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.46299999999999997,Georgia
 2020-10-29,democratic,0.5529999999999999,Georgia
 2020-10-29,republican,0.447,Georgia
-2020-10-30,democratic,0.5870000000000001,Georgia
-2020-10-30,republican,0.413,Georgia
+2020-10-30,democratic,0.578,Georgia
+2020-10-30,republican,0.42200000000000004,Georgia
+2020-10-31,democratic,0.573,Georgia
+2020-10-31,republican,0.42700000000000005,Georgia
+2020-11-01,democratic,0.517,Georgia
+2020-11-01,republican,0.483,Georgia
+2020-11-02,democratic,0.5660000000000001,Georgia
+2020-11-02,republican,0.434,Georgia
+2020-11-03,democratic,0.583,Georgia
+2020-11-03,republican,0.41700000000000004,Georgia
 2020-03-01,democratic,0.9990000000000001,Hawaii
 2020-03-01,republican,0.001,Hawaii
 2020-03-02,democratic,0.9990000000000001,Hawaii
@@ -5367,6 +5447,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Hawaii
 2020-10-30,democratic,1.0,Hawaii
 2020-10-30,republican,0.0,Hawaii
+2020-10-31,democratic,1.0,Hawaii
+2020-10-31,republican,0.0,Hawaii
+2020-11-01,democratic,1.0,Hawaii
+2020-11-01,republican,0.0,Hawaii
+2020-11-02,democratic,1.0,Hawaii
+2020-11-02,republican,0.0,Hawaii
+2020-11-03,democratic,1.0,Hawaii
+2020-11-03,republican,0.0,Hawaii
 2020-03-01,democratic,0.0,Idaho
 2020-03-01,republican,1.0,Idaho
 2020-03-02,democratic,0.0,Idaho
@@ -5855,6 +5943,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Idaho
 2020-10-30,democratic,0.0,Idaho
 2020-10-30,republican,1.0,Idaho
+2020-10-31,democratic,0.0,Idaho
+2020-10-31,republican,1.0,Idaho
+2020-11-01,democratic,0.0,Idaho
+2020-11-01,republican,1.0,Idaho
+2020-11-02,democratic,0.0,Idaho
+2020-11-02,republican,1.0,Idaho
+2020-11-03,democratic,0.0,Idaho
+2020-11-03,republican,1.0,Idaho
 2020-03-01,democratic,0.907,Illinois
 2020-03-01,republican,0.09300000000000001,Illinois
 2020-03-02,democratic,0.9129999999999999,Illinois
@@ -6343,6 +6439,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Illinois
 2020-10-30,democratic,1.0,Illinois
 2020-10-30,republican,0.0,Illinois
+2020-10-31,democratic,1.0,Illinois
+2020-10-31,republican,0.0,Illinois
+2020-11-01,democratic,1.0,Illinois
+2020-11-01,republican,0.0,Illinois
+2020-11-02,democratic,1.0,Illinois
+2020-11-02,republican,0.0,Illinois
+2020-11-03,democratic,1.0,Illinois
+2020-11-03,republican,0.0,Illinois
 2020-03-01,democratic,0.037000000000000005,Indiana
 2020-03-01,republican,0.963,Indiana
 2020-03-02,democratic,0.033,Indiana
@@ -6831,6 +6935,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.9990000000000001,Indiana
 2020-10-30,democratic,0.001,Indiana
 2020-10-30,republican,0.9990000000000001,Indiana
+2020-10-31,democratic,0.001,Indiana
+2020-10-31,republican,0.9990000000000001,Indiana
+2020-11-01,democratic,0.001,Indiana
+2020-11-01,republican,0.9990000000000001,Indiana
+2020-11-02,democratic,0.0,Indiana
+2020-11-02,republican,1.0,Indiana
+2020-11-03,democratic,0.001,Indiana
+2020-11-03,republican,0.9990000000000001,Indiana
 2020-03-01,democratic,0.22399999999999998,Iowa
 2020-03-01,republican,0.7759999999999999,Iowa
 2020-03-02,democratic,0.212,Iowa
@@ -7317,8 +7429,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.46,Iowa
 2020-10-29,democratic,0.439,Iowa
 2020-10-29,republican,0.561,Iowa
-2020-10-30,democratic,0.466,Iowa
-2020-10-30,republican,0.534,Iowa
+2020-10-30,democratic,0.451,Iowa
+2020-10-30,republican,0.5489999999999999,Iowa
+2020-10-31,democratic,0.395,Iowa
+2020-10-31,republican,0.605,Iowa
+2020-11-01,democratic,0.368,Iowa
+2020-11-01,republican,0.632,Iowa
+2020-11-02,democratic,0.387,Iowa
+2020-11-02,republican,0.613,Iowa
+2020-11-03,democratic,0.451,Iowa
+2020-11-03,republican,0.5489999999999999,Iowa
 2020-03-01,democratic,0.024,Kansas
 2020-03-01,republican,0.976,Kansas
 2020-03-02,democratic,0.019,Kansas
@@ -7805,8 +7925,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.995,Kansas
 2020-10-29,democratic,0.004,Kansas
 2020-10-29,republican,0.996,Kansas
-2020-10-30,democratic,0.004,Kansas
-2020-10-30,republican,0.996,Kansas
+2020-10-30,democratic,0.003,Kansas
+2020-10-30,republican,0.997,Kansas
+2020-10-31,democratic,0.003,Kansas
+2020-10-31,republican,0.997,Kansas
+2020-11-01,democratic,0.002,Kansas
+2020-11-01,republican,0.998,Kansas
+2020-11-02,democratic,0.001,Kansas
+2020-11-02,republican,0.9990000000000001,Kansas
+2020-11-03,democratic,0.001,Kansas
+2020-11-03,republican,0.9990000000000001,Kansas
 2020-03-01,democratic,0.003,Kentucky
 2020-03-01,republican,0.997,Kentucky
 2020-03-02,democratic,0.002,Kentucky
@@ -8295,6 +8423,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Kentucky
 2020-10-30,democratic,0.0,Kentucky
 2020-10-30,republican,1.0,Kentucky
+2020-10-31,democratic,0.0,Kentucky
+2020-10-31,republican,1.0,Kentucky
+2020-11-01,democratic,0.0,Kentucky
+2020-11-01,republican,1.0,Kentucky
+2020-11-02,democratic,0.0,Kentucky
+2020-11-02,republican,1.0,Kentucky
+2020-11-03,democratic,0.0,Kentucky
+2020-11-03,republican,1.0,Kentucky
 2020-03-01,democratic,0.049,Louisiana
 2020-03-01,republican,0.951,Louisiana
 2020-03-02,democratic,0.048,Louisiana
@@ -8783,6 +8919,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.9990000000000001,Louisiana
 2020-10-30,democratic,0.001,Louisiana
 2020-10-30,republican,0.9990000000000001,Louisiana
+2020-10-31,democratic,0.001,Louisiana
+2020-10-31,republican,0.9990000000000001,Louisiana
+2020-11-01,democratic,0.001,Louisiana
+2020-11-01,republican,0.9990000000000001,Louisiana
+2020-11-02,democratic,0.001,Louisiana
+2020-11-02,republican,0.9990000000000001,Louisiana
+2020-11-03,democratic,0.001,Louisiana
+2020-11-03,republican,0.9990000000000001,Louisiana
 2020-03-01,democratic,0.631,Maine
 2020-03-01,republican,0.369,Maine
 2020-03-02,democratic,0.634,Maine
@@ -9269,8 +9413,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.001,Maine
 2020-10-29,democratic,0.9990000000000001,Maine
 2020-10-29,republican,0.001,Maine
-2020-10-30,democratic,0.998,Maine
-2020-10-30,republican,0.002,Maine
+2020-10-30,democratic,0.9990000000000001,Maine
+2020-10-30,republican,0.001,Maine
+2020-10-31,democratic,0.9990000000000001,Maine
+2020-10-31,republican,0.001,Maine
+2020-11-01,democratic,0.9990000000000001,Maine
+2020-11-01,republican,0.001,Maine
+2020-11-02,democratic,0.9990000000000001,Maine
+2020-11-02,republican,0.001,Maine
+2020-11-03,democratic,1.0,Maine
+2020-11-03,republican,0.0,Maine
 2020-03-01,democratic,0.995,Maryland
 2020-03-01,republican,0.005,Maryland
 2020-03-02,democratic,0.996,Maryland
@@ -9759,6 +9911,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Maryland
 2020-10-30,democratic,1.0,Maryland
 2020-10-30,republican,0.0,Maryland
+2020-10-31,democratic,1.0,Maryland
+2020-10-31,republican,0.0,Maryland
+2020-11-01,democratic,1.0,Maryland
+2020-11-01,republican,0.0,Maryland
+2020-11-02,democratic,1.0,Maryland
+2020-11-02,republican,0.0,Maryland
+2020-11-03,democratic,1.0,Maryland
+2020-11-03,republican,0.0,Maryland
 2020-03-01,democratic,0.9940000000000001,Massachusetts
 2020-03-01,republican,0.006,Massachusetts
 2020-03-02,democratic,0.993,Massachusetts
@@ -10247,6 +10407,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Massachusetts
 2020-10-30,democratic,1.0,Massachusetts
 2020-10-30,republican,0.0,Massachusetts
+2020-10-31,democratic,1.0,Massachusetts
+2020-10-31,republican,0.0,Massachusetts
+2020-11-01,democratic,1.0,Massachusetts
+2020-11-01,republican,0.0,Massachusetts
+2020-11-02,democratic,1.0,Massachusetts
+2020-11-02,republican,0.0,Massachusetts
+2020-11-03,democratic,1.0,Massachusetts
+2020-11-03,republican,0.0,Massachusetts
 2020-03-01,democratic,0.575,Michigan
 2020-03-01,republican,0.425,Michigan
 2020-03-02,democratic,0.581,Michigan
@@ -10733,8 +10901,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.026000000000000002,Michigan
 2020-10-29,democratic,0.97,Michigan
 2020-10-29,republican,0.03,Michigan
-2020-10-30,democratic,0.983,Michigan
-2020-10-30,republican,0.017,Michigan
+2020-10-30,democratic,0.977,Michigan
+2020-10-30,republican,0.023,Michigan
+2020-10-31,democratic,0.9790000000000001,Michigan
+2020-10-31,republican,0.021,Michigan
+2020-11-01,democratic,0.973,Michigan
+2020-11-01,republican,0.027000000000000003,Michigan
+2020-11-02,democratic,0.978,Michigan
+2020-11-02,republican,0.022000000000000002,Michigan
+2020-11-03,democratic,0.9840000000000001,Michigan
+2020-11-03,republican,0.016,Michigan
 2020-03-01,democratic,0.607,Minnesota
 2020-03-01,republican,0.39299999999999996,Minnesota
 2020-03-02,democratic,0.5770000000000001,Minnesota
@@ -11221,8 +11397,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.015,Minnesota
 2020-10-29,democratic,0.982,Minnesota
 2020-10-29,republican,0.018000000000000002,Minnesota
-2020-10-30,democratic,0.988,Minnesota
-2020-10-30,republican,0.012,Minnesota
+2020-10-30,democratic,0.982,Minnesota
+2020-10-30,republican,0.018000000000000002,Minnesota
+2020-10-31,democratic,0.985,Minnesota
+2020-10-31,republican,0.015,Minnesota
+2020-11-01,democratic,0.981,Minnesota
+2020-11-01,republican,0.019,Minnesota
+2020-11-02,democratic,0.986,Minnesota
+2020-11-02,republican,0.013999999999999999,Minnesota
+2020-11-03,democratic,0.99,Minnesota
+2020-11-03,republican,0.01,Minnesota
 2020-03-01,democratic,0.087,Mississippi
 2020-03-01,republican,0.9129999999999999,Mississippi
 2020-03-02,democratic,0.08,Mississippi
@@ -11709,8 +11893,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.996,Mississippi
 2020-10-29,democratic,0.004,Mississippi
 2020-10-29,republican,0.996,Mississippi
-2020-10-30,democratic,0.005,Mississippi
-2020-10-30,republican,0.995,Mississippi
+2020-10-30,democratic,0.006,Mississippi
+2020-10-30,republican,0.9940000000000001,Mississippi
+2020-10-31,democratic,0.005,Mississippi
+2020-10-31,republican,0.995,Mississippi
+2020-11-01,democratic,0.003,Mississippi
+2020-11-01,republican,0.997,Mississippi
+2020-11-02,democratic,0.002,Mississippi
+2020-11-02,republican,0.998,Mississippi
+2020-11-03,democratic,0.002,Mississippi
+2020-11-03,republican,0.998,Mississippi
 2020-03-01,democratic,0.05,Missouri
 2020-03-01,republican,0.95,Missouri
 2020-03-02,democratic,0.047,Missouri
@@ -12197,8 +12389,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.9670000000000001,Missouri
 2020-10-29,democratic,0.024,Missouri
 2020-10-29,republican,0.976,Missouri
-2020-10-30,democratic,0.023,Missouri
-2020-10-30,republican,0.977,Missouri
+2020-10-30,democratic,0.024,Missouri
+2020-10-30,republican,0.976,Missouri
+2020-10-31,democratic,0.023,Missouri
+2020-10-31,republican,0.977,Missouri
+2020-11-01,democratic,0.016,Missouri
+2020-11-01,republican,0.9840000000000001,Missouri
+2020-11-02,democratic,0.013999999999999999,Missouri
+2020-11-02,republican,0.986,Missouri
+2020-11-03,democratic,0.018000000000000002,Missouri
+2020-11-03,republican,0.982,Missouri
 2020-03-01,democratic,0.012,Montana
 2020-03-01,republican,0.988,Montana
 2020-03-02,democratic,0.01,Montana
@@ -12687,6 +12887,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.985,Montana
 2020-10-30,democratic,0.016,Montana
 2020-10-30,republican,0.9840000000000001,Montana
+2020-10-31,democratic,0.013999999999999999,Montana
+2020-10-31,republican,0.986,Montana
+2020-11-01,democratic,0.01,Montana
+2020-11-01,republican,0.99,Montana
+2020-11-02,democratic,0.01,Montana
+2020-11-02,republican,0.99,Montana
+2020-11-03,democratic,0.017,Montana
+2020-11-03,republican,0.983,Montana
 2020-03-01,democratic,0.006,Nebraska
 2020-03-01,republican,0.9940000000000001,Nebraska
 2020-03-02,democratic,0.005,Nebraska
@@ -13173,8 +13381,16 @@ date,party,win_prob,state
 2020-10-28,republican,1.0,Nebraska
 2020-10-29,democratic,0.0,Nebraska
 2020-10-29,republican,1.0,Nebraska
-2020-10-30,democratic,0.001,Nebraska
-2020-10-30,republican,0.9990000000000001,Nebraska
+2020-10-30,democratic,0.0,Nebraska
+2020-10-30,republican,1.0,Nebraska
+2020-10-31,democratic,0.0,Nebraska
+2020-10-31,republican,1.0,Nebraska
+2020-11-01,democratic,0.0,Nebraska
+2020-11-01,republican,1.0,Nebraska
+2020-11-02,democratic,0.0,Nebraska
+2020-11-02,republican,1.0,Nebraska
+2020-11-03,democratic,0.0,Nebraska
+2020-11-03,republican,1.0,Nebraska
 2020-03-01,democratic,0.616,Nevada
 2020-03-01,republican,0.384,Nevada
 2020-03-02,democratic,0.605,Nevada
@@ -13661,8 +13877,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.068,Nevada
 2020-10-29,democratic,0.93,Nevada
 2020-10-29,republican,0.07,Nevada
-2020-10-30,democratic,0.941,Nevada
-2020-10-30,republican,0.059000000000000004,Nevada
+2020-10-30,democratic,0.932,Nevada
+2020-10-30,republican,0.068,Nevada
+2020-10-31,democratic,0.934,Nevada
+2020-10-31,republican,0.066,Nevada
+2020-11-01,democratic,0.9329999999999999,Nevada
+2020-11-01,republican,0.067,Nevada
+2020-11-02,democratic,0.945,Nevada
+2020-11-02,republican,0.055,Nevada
+2020-11-03,democratic,0.948,Nevada
+2020-11-03,republican,0.052000000000000005,Nevada
 2020-03-01,democratic,0.452,New Hampshire
 2020-03-01,republican,0.5479999999999999,New Hampshire
 2020-03-02,democratic,0.439,New Hampshire
@@ -14149,8 +14373,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.02,New Hampshire
 2020-10-29,democratic,0.975,New Hampshire
 2020-10-29,republican,0.025,New Hampshire
-2020-10-30,democratic,0.981,New Hampshire
-2020-10-30,republican,0.019,New Hampshire
+2020-10-30,democratic,0.977,New Hampshire
+2020-10-30,republican,0.023,New Hampshire
+2020-10-31,democratic,0.977,New Hampshire
+2020-10-31,republican,0.023,New Hampshire
+2020-11-01,democratic,0.973,New Hampshire
+2020-11-01,republican,0.027000000000000003,New Hampshire
+2020-11-02,democratic,0.9790000000000001,New Hampshire
+2020-11-02,republican,0.021,New Hampshire
+2020-11-03,democratic,0.986,New Hampshire
+2020-11-03,republican,0.013999999999999999,New Hampshire
 2020-03-01,democratic,0.938,New Jersey
 2020-03-01,republican,0.062,New Jersey
 2020-03-02,democratic,0.951,New Jersey
@@ -14639,6 +14871,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,New Jersey
 2020-10-30,democratic,1.0,New Jersey
 2020-10-30,republican,0.0,New Jersey
+2020-10-31,democratic,1.0,New Jersey
+2020-10-31,republican,0.0,New Jersey
+2020-11-01,democratic,1.0,New Jersey
+2020-11-01,republican,0.0,New Jersey
+2020-11-02,democratic,1.0,New Jersey
+2020-11-02,republican,0.0,New Jersey
+2020-11-03,democratic,1.0,New Jersey
+2020-11-03,republican,0.0,New Jersey
 2020-03-01,democratic,0.775,New Mexico
 2020-03-01,republican,0.225,New Mexico
 2020-03-02,democratic,0.805,New Mexico
@@ -15125,8 +15365,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.003,New Mexico
 2020-10-29,democratic,0.997,New Mexico
 2020-10-29,republican,0.003,New Mexico
-2020-10-30,democratic,0.995,New Mexico
-2020-10-30,republican,0.005,New Mexico
+2020-10-30,democratic,0.997,New Mexico
+2020-10-30,republican,0.003,New Mexico
+2020-10-31,democratic,0.996,New Mexico
+2020-10-31,republican,0.004,New Mexico
+2020-11-01,democratic,0.996,New Mexico
+2020-11-01,republican,0.004,New Mexico
+2020-11-02,democratic,0.997,New Mexico
+2020-11-02,republican,0.003,New Mexico
+2020-11-03,democratic,0.998,New Mexico
+2020-11-03,republican,0.002,New Mexico
 2020-03-01,democratic,0.988,New York
 2020-03-01,republican,0.012,New York
 2020-03-02,democratic,0.99,New York
@@ -15615,6 +15863,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,New York
 2020-10-30,democratic,1.0,New York
 2020-10-30,republican,0.0,New York
+2020-10-31,democratic,1.0,New York
+2020-10-31,republican,0.0,New York
+2020-11-01,democratic,1.0,New York
+2020-11-01,republican,0.0,New York
+2020-11-02,democratic,1.0,New York
+2020-11-02,republican,0.0,New York
+2020-11-03,democratic,1.0,New York
+2020-11-03,republican,0.0,New York
 2020-03-01,democratic,0.465,North Carolina
 2020-03-01,republican,0.535,North Carolina
 2020-03-02,democratic,0.469,North Carolina
@@ -16101,8 +16357,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.28600000000000003,North Carolina
 2020-10-29,democratic,0.6829999999999999,North Carolina
 2020-10-29,republican,0.317,North Carolina
-2020-10-30,democratic,0.7140000000000001,North Carolina
-2020-10-30,republican,0.28600000000000003,North Carolina
+2020-10-30,democratic,0.687,North Carolina
+2020-10-30,republican,0.313,North Carolina
+2020-10-31,democratic,0.701,North Carolina
+2020-10-31,republican,0.299,North Carolina
+2020-11-01,democratic,0.647,North Carolina
+2020-11-01,republican,0.353,North Carolina
+2020-11-02,democratic,0.6679999999999999,North Carolina
+2020-11-02,republican,0.332,North Carolina
+2020-11-03,democratic,0.698,North Carolina
+2020-11-03,republican,0.302,North Carolina
 2020-03-01,democratic,0.0,North Dakota
 2020-03-01,republican,1.0,North Dakota
 2020-03-02,democratic,0.0,North Dakota
@@ -16591,6 +16855,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,North Dakota
 2020-10-30,democratic,0.0,North Dakota
 2020-10-30,republican,1.0,North Dakota
+2020-10-31,democratic,0.0,North Dakota
+2020-10-31,republican,1.0,North Dakota
+2020-11-01,democratic,0.0,North Dakota
+2020-11-01,republican,1.0,North Dakota
+2020-11-02,democratic,0.0,North Dakota
+2020-11-02,republican,1.0,North Dakota
+2020-11-03,democratic,0.0,North Dakota
+2020-11-03,republican,1.0,North Dakota
 2020-03-01,democratic,0.3,Ohio
 2020-03-01,republican,0.7,Ohio
 2020-03-02,democratic,0.29100000000000004,Ohio
@@ -17077,8 +17349,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.5720000000000001,Ohio
 2020-10-29,democratic,0.406,Ohio
 2020-10-29,republican,0.594,Ohio
-2020-10-30,democratic,0.39799999999999996,Ohio
-2020-10-30,republican,0.602,Ohio
+2020-10-30,democratic,0.377,Ohio
+2020-10-30,republican,0.623,Ohio
+2020-10-31,democratic,0.373,Ohio
+2020-10-31,republican,0.627,Ohio
+2020-11-01,democratic,0.36700000000000005,Ohio
+2020-11-01,republican,0.633,Ohio
+2020-11-02,democratic,0.41200000000000003,Ohio
+2020-11-02,republican,0.589,Ohio
+2020-11-03,democratic,0.44299999999999995,Ohio
+2020-11-03,republican,0.557,Ohio
 2020-03-01,democratic,0.0,Oklahoma
 2020-03-01,republican,1.0,Oklahoma
 2020-03-02,democratic,0.0,Oklahoma
@@ -17567,6 +17847,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Oklahoma
 2020-10-30,democratic,0.0,Oklahoma
 2020-10-30,republican,1.0,Oklahoma
+2020-10-31,democratic,0.0,Oklahoma
+2020-10-31,republican,1.0,Oklahoma
+2020-11-01,democratic,0.0,Oklahoma
+2020-11-01,republican,1.0,Oklahoma
+2020-11-02,democratic,0.0,Oklahoma
+2020-11-02,republican,1.0,Oklahoma
+2020-11-03,democratic,0.0,Oklahoma
+2020-11-03,republican,1.0,Oklahoma
 2020-03-01,democratic,0.882,Oregon
 2020-03-01,republican,0.11800000000000001,Oregon
 2020-03-02,democratic,0.877,Oregon
@@ -18055,6 +18343,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Oregon
 2020-10-30,democratic,1.0,Oregon
 2020-10-30,republican,0.0,Oregon
+2020-10-31,democratic,1.0,Oregon
+2020-10-31,republican,0.0,Oregon
+2020-11-01,democratic,1.0,Oregon
+2020-11-01,republican,0.0,Oregon
+2020-11-02,democratic,1.0,Oregon
+2020-11-02,republican,0.0,Oregon
+2020-11-03,democratic,1.0,Oregon
+2020-11-03,republican,0.0,Oregon
 2020-03-01,democratic,0.5379999999999999,Pennsylvania
 2020-03-01,republican,0.462,Pennsylvania
 2020-03-02,democratic,0.546,Pennsylvania
@@ -18541,8 +18837,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.057,Pennsylvania
 2020-10-29,democratic,0.93,Pennsylvania
 2020-10-29,republican,0.07,Pennsylvania
-2020-10-30,democratic,0.945,Pennsylvania
-2020-10-30,republican,0.055,Pennsylvania
+2020-10-30,democratic,0.932,Pennsylvania
+2020-10-30,republican,0.068,Pennsylvania
+2020-10-31,democratic,0.9309999999999999,Pennsylvania
+2020-10-31,republican,0.069,Pennsylvania
+2020-11-01,democratic,0.9259999999999999,Pennsylvania
+2020-11-01,republican,0.07400000000000001,Pennsylvania
+2020-11-02,democratic,0.9359999999999999,Pennsylvania
+2020-11-02,republican,0.064,Pennsylvania
+2020-11-03,democratic,0.9470000000000001,Pennsylvania
+2020-11-03,republican,0.053,Pennsylvania
 2020-03-01,democratic,0.9420000000000001,Rhode Island
 2020-03-01,republican,0.057999999999999996,Rhode Island
 2020-03-02,democratic,0.9420000000000001,Rhode Island
@@ -19031,6 +19335,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Rhode Island
 2020-10-30,democratic,1.0,Rhode Island
 2020-10-30,republican,0.0,Rhode Island
+2020-10-31,democratic,1.0,Rhode Island
+2020-10-31,republican,0.0,Rhode Island
+2020-11-01,democratic,1.0,Rhode Island
+2020-11-01,republican,0.0,Rhode Island
+2020-11-02,democratic,1.0,Rhode Island
+2020-11-02,republican,0.0,Rhode Island
+2020-11-03,democratic,1.0,Rhode Island
+2020-11-03,republican,0.0,Rhode Island
 2020-03-01,democratic,0.121,South Carolina
 2020-03-01,republican,0.879,South Carolina
 2020-03-02,democratic,0.10800000000000001,South Carolina
@@ -19517,8 +19829,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.97,South Carolina
 2020-10-29,democratic,0.028999999999999998,South Carolina
 2020-10-29,republican,0.971,South Carolina
-2020-10-30,democratic,0.027000000000000003,South Carolina
-2020-10-30,republican,0.973,South Carolina
+2020-10-30,democratic,0.026000000000000002,South Carolina
+2020-10-30,republican,0.9740000000000001,South Carolina
+2020-10-31,democratic,0.025,South Carolina
+2020-10-31,republican,0.975,South Carolina
+2020-11-01,democratic,0.018000000000000002,South Carolina
+2020-11-01,republican,0.982,South Carolina
+2020-11-02,democratic,0.02,South Carolina
+2020-11-02,republican,0.98,South Carolina
+2020-11-03,democratic,0.024,South Carolina
+2020-11-03,republican,0.976,South Carolina
 2020-03-01,democratic,0.002,South Dakota
 2020-03-01,republican,0.998,South Dakota
 2020-03-02,democratic,0.002,South Dakota
@@ -20007,6 +20327,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,South Dakota
 2020-10-30,democratic,0.0,South Dakota
 2020-10-30,republican,1.0,South Dakota
+2020-10-31,democratic,0.0,South Dakota
+2020-10-31,republican,1.0,South Dakota
+2020-11-01,democratic,0.0,South Dakota
+2020-11-01,republican,1.0,South Dakota
+2020-11-02,democratic,0.0,South Dakota
+2020-11-02,republican,1.0,South Dakota
+2020-11-03,democratic,0.0,South Dakota
+2020-11-03,republican,1.0,South Dakota
 2020-03-01,democratic,0.01,Tennessee
 2020-03-01,republican,0.99,Tennessee
 2020-03-02,democratic,0.01,Tennessee
@@ -20495,6 +20823,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Tennessee
 2020-10-30,democratic,0.0,Tennessee
 2020-10-30,republican,1.0,Tennessee
+2020-10-31,democratic,0.0,Tennessee
+2020-10-31,republican,1.0,Tennessee
+2020-11-01,democratic,0.0,Tennessee
+2020-11-01,republican,1.0,Tennessee
+2020-11-02,democratic,0.0,Tennessee
+2020-11-02,republican,1.0,Tennessee
+2020-11-03,democratic,0.0,Tennessee
+2020-11-03,republican,1.0,Tennessee
 2020-03-01,democratic,0.214,Texas
 2020-03-01,republican,0.7859999999999999,Texas
 2020-03-02,democratic,0.209,Texas
@@ -20981,8 +21317,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.7340000000000001,Texas
 2020-10-29,democratic,0.243,Texas
 2020-10-29,republican,0.757,Texas
-2020-10-30,democratic,0.26,Texas
-2020-10-30,republican,0.74,Texas
+2020-10-30,democratic,0.245,Texas
+2020-10-30,republican,0.755,Texas
+2020-10-31,democratic,0.273,Texas
+2020-10-31,republican,0.727,Texas
+2020-11-01,democratic,0.259,Texas
+2020-11-01,republican,0.741,Texas
+2020-11-02,democratic,0.281,Texas
+2020-11-02,republican,0.7190000000000001,Texas
+2020-11-03,democratic,0.303,Texas
+2020-11-03,republican,0.6970000000000001,Texas
 2020-03-01,democratic,0.006,Utah
 2020-03-01,republican,0.9940000000000001,Utah
 2020-03-02,democratic,0.003,Utah
@@ -21471,6 +21815,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Utah
 2020-10-30,democratic,0.0,Utah
 2020-10-30,republican,1.0,Utah
+2020-10-31,democratic,0.0,Utah
+2020-10-31,republican,1.0,Utah
+2020-11-01,democratic,0.0,Utah
+2020-11-01,republican,1.0,Utah
+2020-11-02,democratic,0.0,Utah
+2020-11-02,republican,1.0,Utah
+2020-11-03,democratic,0.0,Utah
+2020-11-03,republican,1.0,Utah
 2020-03-01,democratic,0.997,Vermont
 2020-03-01,republican,0.003,Vermont
 2020-03-02,democratic,0.996,Vermont
@@ -21959,6 +22311,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Vermont
 2020-10-30,democratic,1.0,Vermont
 2020-10-30,republican,0.0,Vermont
+2020-10-31,democratic,1.0,Vermont
+2020-10-31,republican,0.0,Vermont
+2020-11-01,democratic,1.0,Vermont
+2020-11-01,republican,0.0,Vermont
+2020-11-02,democratic,1.0,Vermont
+2020-11-02,republican,0.0,Vermont
+2020-11-03,democratic,1.0,Vermont
+2020-11-03,republican,0.0,Vermont
 2020-03-01,democratic,0.731,Virginia
 2020-03-01,republican,0.26899999999999996,Virginia
 2020-03-02,democratic,0.737,Virginia
@@ -22445,8 +22805,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.003,Virginia
 2020-10-29,democratic,0.996,Virginia
 2020-10-29,republican,0.004,Virginia
-2020-10-30,democratic,0.998,Virginia
-2020-10-30,republican,0.002,Virginia
+2020-10-30,democratic,0.996,Virginia
+2020-10-30,republican,0.004,Virginia
+2020-10-31,democratic,0.997,Virginia
+2020-10-31,republican,0.003,Virginia
+2020-11-01,democratic,0.995,Virginia
+2020-11-01,republican,0.005,Virginia
+2020-11-02,democratic,0.997,Virginia
+2020-11-02,republican,0.003,Virginia
+2020-11-03,democratic,0.997,Virginia
+2020-11-03,republican,0.003,Virginia
 2020-03-01,democratic,0.938,Washington
 2020-03-01,republican,0.062,Washington
 2020-03-02,democratic,0.9309999999999999,Washington
@@ -22935,6 +23303,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Washington
 2020-10-30,democratic,1.0,Washington
 2020-10-30,republican,0.0,Washington
+2020-10-31,democratic,1.0,Washington
+2020-10-31,republican,0.0,Washington
+2020-11-01,democratic,1.0,Washington
+2020-11-01,republican,0.0,Washington
+2020-11-02,democratic,1.0,Washington
+2020-11-02,republican,0.0,Washington
+2020-11-03,democratic,1.0,Washington
+2020-11-03,republican,0.0,Washington
 2020-03-01,democratic,1.0,Washington DC
 2020-03-01,republican,0.0,Washington DC
 2020-03-02,democratic,1.0,Washington DC
@@ -23423,6 +23799,14 @@ date,party,win_prob,state
 2020-10-29,republican,0.0,Washington DC
 2020-10-30,democratic,1.0,Washington DC
 2020-10-30,republican,0.0,Washington DC
+2020-10-31,democratic,1.0,Washington DC
+2020-10-31,republican,0.0,Washington DC
+2020-11-01,democratic,1.0,Washington DC
+2020-11-01,republican,0.0,Washington DC
+2020-11-02,democratic,1.0,Washington DC
+2020-11-02,republican,0.0,Washington DC
+2020-11-03,democratic,1.0,Washington DC
+2020-11-03,republican,0.0,Washington DC
 2020-03-01,democratic,0.0,West Virginia
 2020-03-01,republican,1.0,West Virginia
 2020-03-02,democratic,0.0,West Virginia
@@ -23911,6 +24295,14 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,West Virginia
 2020-10-30,democratic,0.0,West Virginia
 2020-10-30,republican,1.0,West Virginia
+2020-10-31,democratic,0.0,West Virginia
+2020-10-31,republican,1.0,West Virginia
+2020-11-01,democratic,0.0,West Virginia
+2020-11-01,republican,1.0,West Virginia
+2020-11-02,democratic,0.0,West Virginia
+2020-11-02,republican,1.0,West Virginia
+2020-11-03,democratic,0.0,West Virginia
+2020-11-03,republican,1.0,West Virginia
 2020-03-01,democratic,0.445,Wisconsin
 2020-03-01,republican,0.555,Wisconsin
 2020-03-02,democratic,0.45,Wisconsin
@@ -24397,8 +24789,16 @@ date,party,win_prob,state
 2020-10-28,republican,0.026000000000000002,Wisconsin
 2020-10-29,democratic,0.968,Wisconsin
 2020-10-29,republican,0.032,Wisconsin
-2020-10-30,democratic,0.976,Wisconsin
-2020-10-30,republican,0.024,Wisconsin
+2020-10-30,democratic,0.9690000000000001,Wisconsin
+2020-10-30,republican,0.031,Wisconsin
+2020-10-31,democratic,0.9670000000000001,Wisconsin
+2020-10-31,republican,0.033,Wisconsin
+2020-11-01,democratic,0.96,Wisconsin
+2020-11-01,republican,0.04,Wisconsin
+2020-11-02,democratic,0.973,Wisconsin
+2020-11-02,republican,0.027000000000000003,Wisconsin
+2020-11-03,democratic,0.98,Wisconsin
+2020-11-03,republican,0.02,Wisconsin
 2020-03-01,democratic,0.0,Wyoming
 2020-03-01,republican,1.0,Wyoming
 2020-03-02,democratic,0.0,Wyoming
@@ -24887,3 +25287,11 @@ date,party,win_prob,state
 2020-10-29,republican,1.0,Wyoming
 2020-10-30,democratic,0.0,Wyoming
 2020-10-30,republican,1.0,Wyoming
+2020-10-31,democratic,0.0,Wyoming
+2020-10-31,republican,1.0,Wyoming
+2020-11-01,democratic,0.0,Wyoming
+2020-11-01,republican,1.0,Wyoming
+2020-11-02,democratic,0.0,Wyoming
+2020-11-02,republican,1.0,Wyoming
+2020-11-03,democratic,0.0,Wyoming
+2020-11-03,republican,1.0,Wyoming

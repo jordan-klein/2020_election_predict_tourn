@@ -243,6 +243,10 @@ date,state,dem_chance
 2020-10-28,Alabama,0.0
 2020-10-29,Alabama,0.0
 2020-10-30,Alabama,0.0
+2020-10-31,Alabama,0.0
+2020-11-01,Alabama,0.0
+2020-11-02,Alabama,0.0
+2020-11-03,Alabama,0.0
 2020-03-01,Alaska,0.085
 2020-03-02,Alaska,0.067
 2020-03-03,Alaska,0.068
@@ -486,7 +490,11 @@ date,state,dem_chance
 2020-10-27,Alaska,0.123
 2020-10-28,Alaska,0.103
 2020-10-29,Alaska,0.049
-2020-10-30,Alaska,0.051
+2020-10-30,Alaska,0.052000000000000005
+2020-10-31,Alaska,0.055
+2020-11-01,Alaska,0.04
+2020-11-02,Alaska,0.04
+2020-11-03,Alaska,0.051
 2020-03-01,Arizona,0.35600000000000004
 2020-03-02,Arizona,0.353
 2020-03-03,Arizona,0.36
@@ -730,7 +738,11 @@ date,state,dem_chance
 2020-10-27,Arizona,0.7559999999999999
 2020-10-28,Arizona,0.765
 2020-10-29,Arizona,0.738
-2020-10-30,Arizona,0.779
+2020-10-30,Arizona,0.754
+2020-10-31,Arizona,0.737
+2020-11-01,Arizona,0.708
+2020-11-02,Arizona,0.703
+2020-11-03,Arizona,0.732
 2020-03-01,Arkansas,0.006999999999999999
 2020-03-02,Arkansas,0.006999999999999999
 2020-03-03,Arkansas,0.006999999999999999
@@ -975,6 +987,10 @@ date,state,dem_chance
 2020-10-28,Arkansas,0.0
 2020-10-29,Arkansas,0.0
 2020-10-30,Arkansas,0.0
+2020-10-31,Arkansas,0.0
+2020-11-01,Arkansas,0.0
+2020-11-02,Arkansas,0.0
+2020-11-03,Arkansas,0.0
 2020-03-01,California,0.998
 2020-03-02,California,0.999
 2020-03-03,California,0.999
@@ -1219,6 +1235,10 @@ date,state,dem_chance
 2020-10-28,California,1.0
 2020-10-29,California,1.0
 2020-10-30,California,1.0
+2020-10-31,California,1.0
+2020-11-01,California,1.0
+2020-11-02,California,1.0
+2020-11-03,California,1.0
 2020-03-01,Colorado,0.706
 2020-03-02,Colorado,0.672
 2020-03-03,Colorado,0.6709999999999999
@@ -1463,6 +1483,10 @@ date,state,dem_chance
 2020-10-28,Colorado,0.998
 2020-10-29,Colorado,0.997
 2020-10-30,Colorado,0.998
+2020-10-31,Colorado,0.997
+2020-11-01,Colorado,0.997
+2020-11-02,Colorado,0.999
+2020-11-03,Colorado,0.999
 2020-03-01,Connecticut,0.883
 2020-03-02,Connecticut,0.893
 2020-03-03,Connecticut,0.887
@@ -1707,6 +1731,10 @@ date,state,dem_chance
 2020-10-28,Connecticut,1.0
 2020-10-29,Connecticut,1.0
 2020-10-30,Connecticut,1.0
+2020-10-31,Connecticut,1.0
+2020-11-01,Connecticut,1.0
+2020-11-02,Connecticut,1.0
+2020-11-03,Connecticut,1.0
 2020-03-01,Delaware,0.927
 2020-03-02,Delaware,0.938
 2020-03-03,Delaware,0.936
@@ -1951,6 +1979,10 @@ date,state,dem_chance
 2020-10-28,Delaware,1.0
 2020-10-29,Delaware,1.0
 2020-10-30,Delaware,1.0
+2020-10-31,Delaware,1.0
+2020-11-01,Delaware,1.0
+2020-11-02,Delaware,1.0
+2020-11-03,Delaware,1.0
 2020-03-01,District of Columbia,1.0
 2020-03-02,District of Columbia,1.0
 2020-03-03,District of Columbia,1.0
@@ -2195,6 +2227,10 @@ date,state,dem_chance
 2020-10-28,District of Columbia,1.0
 2020-10-29,District of Columbia,1.0
 2020-10-30,District of Columbia,1.0
+2020-10-31,District of Columbia,1.0
+2020-11-01,District of Columbia,1.0
+2020-11-02,District of Columbia,1.0
+2020-11-03,District of Columbia,1.0
 2020-03-01,Florida,0.484
 2020-03-02,Florida,0.579
 2020-03-03,Florida,0.579
@@ -2438,7 +2474,11 @@ date,state,dem_chance
 2020-10-27,Florida,0.785
 2020-10-28,Florida,0.782
 2020-10-29,Florida,0.768
-2020-10-30,Florida,0.807
+2020-10-30,Florida,0.752
+2020-10-31,Florida,0.7559999999999999
+2020-11-01,Florida,0.7440000000000001
+2020-11-02,Florida,0.7809999999999999
+2020-11-03,Florida,0.8
 2020-03-01,Georgia,0.35600000000000004
 2020-03-02,Georgia,0.35700000000000004
 2020-03-03,Georgia,0.35600000000000004
@@ -2682,7 +2722,11 @@ date,state,dem_chance
 2020-10-27,Georgia,0.507
 2020-10-28,Georgia,0.537
 2020-10-29,Georgia,0.5529999999999999
-2020-10-30,Georgia,0.5870000000000001
+2020-10-30,Georgia,0.578
+2020-10-31,Georgia,0.573
+2020-11-01,Georgia,0.517
+2020-11-02,Georgia,0.5660000000000001
+2020-11-03,Georgia,0.583
 2020-03-01,Hawaii,0.999
 2020-03-02,Hawaii,0.999
 2020-03-03,Hawaii,0.999
@@ -2927,6 +2971,10 @@ date,state,dem_chance
 2020-10-28,Hawaii,1.0
 2020-10-29,Hawaii,1.0
 2020-10-30,Hawaii,1.0
+2020-10-31,Hawaii,1.0
+2020-11-01,Hawaii,1.0
+2020-11-02,Hawaii,1.0
+2020-11-03,Hawaii,1.0
 2020-03-01,Idaho,0.0
 2020-03-02,Idaho,0.0
 2020-03-03,Idaho,0.0
@@ -3171,6 +3219,10 @@ date,state,dem_chance
 2020-10-28,Idaho,0.0
 2020-10-29,Idaho,0.0
 2020-10-30,Idaho,0.0
+2020-10-31,Idaho,0.0
+2020-11-01,Idaho,0.0
+2020-11-02,Idaho,0.0
+2020-11-03,Idaho,0.0
 2020-03-01,Illinois,0.907
 2020-03-02,Illinois,0.913
 2020-03-03,Illinois,0.91
@@ -3415,6 +3467,10 @@ date,state,dem_chance
 2020-10-28,Illinois,1.0
 2020-10-29,Illinois,1.0
 2020-10-30,Illinois,1.0
+2020-10-31,Illinois,1.0
+2020-11-01,Illinois,1.0
+2020-11-02,Illinois,1.0
+2020-11-03,Illinois,1.0
 2020-03-01,Indiana,0.037000000000000005
 2020-03-02,Indiana,0.033
 2020-03-03,Indiana,0.032
@@ -3659,6 +3715,10 @@ date,state,dem_chance
 2020-10-28,Indiana,0.001
 2020-10-29,Indiana,0.001
 2020-10-30,Indiana,0.001
+2020-10-31,Indiana,0.001
+2020-11-01,Indiana,0.001
+2020-11-02,Indiana,0.0
+2020-11-03,Indiana,0.001
 2020-03-01,Iowa,0.224
 2020-03-02,Iowa,0.212
 2020-03-03,Iowa,0.213
@@ -3902,7 +3962,11 @@ date,state,dem_chance
 2020-10-27,Iowa,0.547
 2020-10-28,Iowa,0.54
 2020-10-29,Iowa,0.439
-2020-10-30,Iowa,0.466
+2020-10-30,Iowa,0.451
+2020-10-31,Iowa,0.395
+2020-11-01,Iowa,0.368
+2020-11-02,Iowa,0.387
+2020-11-03,Iowa,0.451
 2020-03-01,Kansas,0.024
 2020-03-02,Kansas,0.019
 2020-03-03,Kansas,0.02
@@ -4146,7 +4210,11 @@ date,state,dem_chance
 2020-10-27,Kansas,0.006999999999999999
 2020-10-28,Kansas,0.005
 2020-10-29,Kansas,0.004
-2020-10-30,Kansas,0.004
+2020-10-30,Kansas,0.003
+2020-10-31,Kansas,0.003
+2020-11-01,Kansas,0.002
+2020-11-02,Kansas,0.001
+2020-11-03,Kansas,0.001
 2020-03-01,Kentucky,0.003
 2020-03-02,Kentucky,0.002
 2020-03-03,Kentucky,0.003
@@ -4391,6 +4459,10 @@ date,state,dem_chance
 2020-10-28,Kentucky,0.0
 2020-10-29,Kentucky,0.0
 2020-10-30,Kentucky,0.0
+2020-10-31,Kentucky,0.0
+2020-11-01,Kentucky,0.0
+2020-11-02,Kentucky,0.0
+2020-11-03,Kentucky,0.0
 2020-03-01,Louisiana,0.049
 2020-03-02,Louisiana,0.048
 2020-03-03,Louisiana,0.046
@@ -4635,6 +4707,10 @@ date,state,dem_chance
 2020-10-28,Louisiana,0.001
 2020-10-29,Louisiana,0.001
 2020-10-30,Louisiana,0.001
+2020-10-31,Louisiana,0.001
+2020-11-01,Louisiana,0.001
+2020-11-02,Louisiana,0.001
+2020-11-03,Louisiana,0.001
 2020-03-01,Maine,0.631
 2020-03-02,Maine,0.634
 2020-03-03,Maine,0.631
@@ -4878,7 +4954,11 @@ date,state,dem_chance
 2020-10-27,Maine,0.998
 2020-10-28,Maine,0.999
 2020-10-29,Maine,0.999
-2020-10-30,Maine,0.998
+2020-10-30,Maine,0.999
+2020-10-31,Maine,0.999
+2020-11-01,Maine,0.999
+2020-11-02,Maine,0.999
+2020-11-03,Maine,1.0
 2020-03-01,Maryland,0.995
 2020-03-02,Maryland,0.996
 2020-03-03,Maryland,0.996
@@ -5123,6 +5203,10 @@ date,state,dem_chance
 2020-10-28,Maryland,1.0
 2020-10-29,Maryland,1.0
 2020-10-30,Maryland,1.0
+2020-10-31,Maryland,1.0
+2020-11-01,Maryland,1.0
+2020-11-02,Maryland,1.0
+2020-11-03,Maryland,1.0
 2020-03-01,Massachusetts,0.994
 2020-03-02,Massachusetts,0.993
 2020-03-03,Massachusetts,0.993
@@ -5367,6 +5451,10 @@ date,state,dem_chance
 2020-10-28,Massachusetts,1.0
 2020-10-29,Massachusetts,1.0
 2020-10-30,Massachusetts,1.0
+2020-10-31,Massachusetts,1.0
+2020-11-01,Massachusetts,1.0
+2020-11-02,Massachusetts,1.0
+2020-11-03,Massachusetts,1.0
 2020-03-01,Michigan,0.575
 2020-03-02,Michigan,0.581
 2020-03-03,Michigan,0.5820000000000001
@@ -5610,7 +5698,11 @@ date,state,dem_chance
 2020-10-27,Michigan,0.974
 2020-10-28,Michigan,0.974
 2020-10-29,Michigan,0.97
-2020-10-30,Michigan,0.983
+2020-10-30,Michigan,0.977
+2020-10-31,Michigan,0.979
+2020-11-01,Michigan,0.973
+2020-11-02,Michigan,0.978
+2020-11-03,Michigan,0.984
 2020-03-01,Minnesota,0.607
 2020-03-02,Minnesota,0.5770000000000001
 2020-03-03,Minnesota,0.583
@@ -5854,7 +5946,11 @@ date,state,dem_chance
 2020-10-27,Minnesota,0.987
 2020-10-28,Minnesota,0.985
 2020-10-29,Minnesota,0.982
-2020-10-30,Minnesota,0.988
+2020-10-30,Minnesota,0.982
+2020-10-31,Minnesota,0.985
+2020-11-01,Minnesota,0.981
+2020-11-02,Minnesota,0.986
+2020-11-03,Minnesota,0.99
 2020-03-01,Mississippi,0.087
 2020-03-02,Mississippi,0.08
 2020-03-03,Mississippi,0.08199999999999999
@@ -6098,7 +6194,11 @@ date,state,dem_chance
 2020-10-27,Mississippi,0.004
 2020-10-28,Mississippi,0.004
 2020-10-29,Mississippi,0.004
-2020-10-30,Mississippi,0.005
+2020-10-30,Mississippi,0.006
+2020-10-31,Mississippi,0.005
+2020-11-01,Mississippi,0.003
+2020-11-02,Mississippi,0.002
+2020-11-03,Mississippi,0.002
 2020-03-01,Missouri,0.05
 2020-03-02,Missouri,0.047
 2020-03-03,Missouri,0.046
@@ -6342,7 +6442,11 @@ date,state,dem_chance
 2020-10-27,Missouri,0.036000000000000004
 2020-10-28,Missouri,0.033
 2020-10-29,Missouri,0.024
-2020-10-30,Missouri,0.023
+2020-10-30,Missouri,0.024
+2020-10-31,Missouri,0.023
+2020-11-01,Missouri,0.016
+2020-11-02,Missouri,0.014
+2020-11-03,Missouri,0.018000000000000002
 2020-03-01,Montana,0.012
 2020-03-02,Montana,0.01
 2020-03-03,Montana,0.011
@@ -6587,6 +6691,10 @@ date,state,dem_chance
 2020-10-28,Montana,0.023
 2020-10-29,Montana,0.015
 2020-10-30,Montana,0.016
+2020-10-31,Montana,0.014
+2020-11-01,Montana,0.01
+2020-11-02,Montana,0.01
+2020-11-03,Montana,0.017
 2020-03-01,Nebraska,0.006
 2020-03-02,Nebraska,0.005
 2020-03-03,Nebraska,0.005
@@ -6830,7 +6938,11 @@ date,state,dem_chance
 2020-10-27,Nebraska,0.001
 2020-10-28,Nebraska,0.0
 2020-10-29,Nebraska,0.0
-2020-10-30,Nebraska,0.001
+2020-10-30,Nebraska,0.0
+2020-10-31,Nebraska,0.0
+2020-11-01,Nebraska,0.0
+2020-11-02,Nebraska,0.0
+2020-11-03,Nebraska,0.0
 2020-03-01,Nevada,0.616
 2020-03-02,Nevada,0.605
 2020-03-03,Nevada,0.604
@@ -7074,7 +7186,11 @@ date,state,dem_chance
 2020-10-27,Nevada,0.924
 2020-10-28,Nevada,0.932
 2020-10-29,Nevada,0.93
-2020-10-30,Nevada,0.941
+2020-10-30,Nevada,0.932
+2020-10-31,Nevada,0.934
+2020-11-01,Nevada,0.933
+2020-11-02,Nevada,0.945
+2020-11-03,Nevada,0.948
 2020-03-01,New Hampshire,0.452
 2020-03-02,New Hampshire,0.439
 2020-03-03,New Hampshire,0.435
@@ -7318,7 +7434,11 @@ date,state,dem_chance
 2020-10-27,New Hampshire,0.977
 2020-10-28,New Hampshire,0.98
 2020-10-29,New Hampshire,0.975
-2020-10-30,New Hampshire,0.981
+2020-10-30,New Hampshire,0.977
+2020-10-31,New Hampshire,0.977
+2020-11-01,New Hampshire,0.973
+2020-11-02,New Hampshire,0.979
+2020-11-03,New Hampshire,0.986
 2020-03-01,New Jersey,0.938
 2020-03-02,New Jersey,0.951
 2020-03-03,New Jersey,0.948
@@ -7563,6 +7683,10 @@ date,state,dem_chance
 2020-10-28,New Jersey,1.0
 2020-10-29,New Jersey,1.0
 2020-10-30,New Jersey,1.0
+2020-10-31,New Jersey,1.0
+2020-11-01,New Jersey,1.0
+2020-11-02,New Jersey,1.0
+2020-11-03,New Jersey,1.0
 2020-03-01,New Mexico,0.775
 2020-03-02,New Mexico,0.805
 2020-03-03,New Mexico,0.8109999999999999
@@ -7806,7 +7930,11 @@ date,state,dem_chance
 2020-10-27,New Mexico,0.997
 2020-10-28,New Mexico,0.997
 2020-10-29,New Mexico,0.997
-2020-10-30,New Mexico,0.995
+2020-10-30,New Mexico,0.997
+2020-10-31,New Mexico,0.996
+2020-11-01,New Mexico,0.996
+2020-11-02,New Mexico,0.997
+2020-11-03,New Mexico,0.998
 2020-03-01,New York,0.988
 2020-03-02,New York,0.99
 2020-03-03,New York,0.989
@@ -8051,6 +8179,10 @@ date,state,dem_chance
 2020-10-28,New York,1.0
 2020-10-29,New York,1.0
 2020-10-30,New York,1.0
+2020-10-31,New York,1.0
+2020-11-01,New York,1.0
+2020-11-02,New York,1.0
+2020-11-03,New York,1.0
 2020-03-01,North Carolina,0.465
 2020-03-02,North Carolina,0.469
 2020-03-03,North Carolina,0.467
@@ -8294,7 +8426,11 @@ date,state,dem_chance
 2020-10-27,North Carolina,0.718
 2020-10-28,North Carolina,0.7140000000000001
 2020-10-29,North Carolina,0.6829999999999999
-2020-10-30,North Carolina,0.7140000000000001
+2020-10-30,North Carolina,0.687
+2020-10-31,North Carolina,0.701
+2020-11-01,North Carolina,0.647
+2020-11-02,North Carolina,0.6679999999999999
+2020-11-03,North Carolina,0.698
 2020-03-01,North Dakota,0.0
 2020-03-02,North Dakota,0.0
 2020-03-03,North Dakota,0.0
@@ -8539,6 +8675,10 @@ date,state,dem_chance
 2020-10-28,North Dakota,0.0
 2020-10-29,North Dakota,0.0
 2020-10-30,North Dakota,0.0
+2020-10-31,North Dakota,0.0
+2020-11-01,North Dakota,0.0
+2020-11-02,North Dakota,0.0
+2020-11-03,North Dakota,0.0
 2020-03-01,Ohio,0.3
 2020-03-02,Ohio,0.29100000000000004
 2020-03-03,Ohio,0.29100000000000004
@@ -8782,7 +8922,11 @@ date,state,dem_chance
 2020-10-27,Ohio,0.424
 2020-10-28,Ohio,0.428
 2020-10-29,Ohio,0.406
-2020-10-30,Ohio,0.398
+2020-10-30,Ohio,0.377
+2020-10-31,Ohio,0.373
+2020-11-01,Ohio,0.3670000000000001
+2020-11-02,Ohio,0.412
+2020-11-03,Ohio,0.443
 2020-03-01,Oklahoma,0.0
 2020-03-02,Oklahoma,0.0
 2020-03-03,Oklahoma,0.0
@@ -9027,6 +9171,10 @@ date,state,dem_chance
 2020-10-28,Oklahoma,0.0
 2020-10-29,Oklahoma,0.0
 2020-10-30,Oklahoma,0.0
+2020-10-31,Oklahoma,0.0
+2020-11-01,Oklahoma,0.0
+2020-11-02,Oklahoma,0.0
+2020-11-03,Oklahoma,0.0
 2020-03-01,Oregon,0.882
 2020-03-02,Oregon,0.877
 2020-03-03,Oregon,0.8809999999999999
@@ -9271,6 +9419,10 @@ date,state,dem_chance
 2020-10-28,Oregon,1.0
 2020-10-29,Oregon,1.0
 2020-10-30,Oregon,1.0
+2020-10-31,Oregon,1.0
+2020-11-01,Oregon,1.0
+2020-11-02,Oregon,1.0
+2020-11-03,Oregon,1.0
 2020-03-01,Pennsylvania,0.5379999999999999
 2020-03-02,Pennsylvania,0.546
 2020-03-03,Pennsylvania,0.546
@@ -9514,7 +9666,11 @@ date,state,dem_chance
 2020-10-27,Pennsylvania,0.94
 2020-10-28,Pennsylvania,0.943
 2020-10-29,Pennsylvania,0.93
-2020-10-30,Pennsylvania,0.945
+2020-10-30,Pennsylvania,0.932
+2020-10-31,Pennsylvania,0.931
+2020-11-01,Pennsylvania,0.926
+2020-11-02,Pennsylvania,0.936
+2020-11-03,Pennsylvania,0.947
 2020-03-01,Rhode Island,0.942
 2020-03-02,Rhode Island,0.942
 2020-03-03,Rhode Island,0.941
@@ -9759,6 +9915,10 @@ date,state,dem_chance
 2020-10-28,Rhode Island,1.0
 2020-10-29,Rhode Island,1.0
 2020-10-30,Rhode Island,1.0
+2020-10-31,Rhode Island,1.0
+2020-11-01,Rhode Island,1.0
+2020-11-02,Rhode Island,1.0
+2020-11-03,Rhode Island,1.0
 2020-03-01,South Carolina,0.121
 2020-03-02,South Carolina,0.108
 2020-03-03,South Carolina,0.109
@@ -10002,7 +10162,11 @@ date,state,dem_chance
 2020-10-27,South Carolina,0.033
 2020-10-28,South Carolina,0.03
 2020-10-29,South Carolina,0.029
-2020-10-30,South Carolina,0.027000000000000003
+2020-10-30,South Carolina,0.026
+2020-10-31,South Carolina,0.025
+2020-11-01,South Carolina,0.018000000000000002
+2020-11-02,South Carolina,0.02
+2020-11-03,South Carolina,0.024
 2020-03-01,South Dakota,0.002
 2020-03-02,South Dakota,0.002
 2020-03-03,South Dakota,0.002
@@ -10247,6 +10411,10 @@ date,state,dem_chance
 2020-10-28,South Dakota,0.0
 2020-10-29,South Dakota,0.0
 2020-10-30,South Dakota,0.0
+2020-10-31,South Dakota,0.0
+2020-11-01,South Dakota,0.0
+2020-11-02,South Dakota,0.0
+2020-11-03,South Dakota,0.0
 2020-03-01,Tennessee,0.01
 2020-03-02,Tennessee,0.01
 2020-03-03,Tennessee,0.011
@@ -10491,6 +10659,10 @@ date,state,dem_chance
 2020-10-28,Tennessee,0.0
 2020-10-29,Tennessee,0.0
 2020-10-30,Tennessee,0.0
+2020-10-31,Tennessee,0.0
+2020-11-01,Tennessee,0.0
+2020-11-02,Tennessee,0.0
+2020-11-03,Tennessee,0.0
 2020-03-01,Texas,0.214
 2020-03-02,Texas,0.209
 2020-03-03,Texas,0.21600000000000005
@@ -10734,7 +10906,11 @@ date,state,dem_chance
 2020-10-27,Texas,0.267
 2020-10-28,Texas,0.266
 2020-10-29,Texas,0.243
-2020-10-30,Texas,0.26
+2020-10-30,Texas,0.245
+2020-10-31,Texas,0.273
+2020-11-01,Texas,0.259
+2020-11-02,Texas,0.281
+2020-11-03,Texas,0.303
 2020-03-01,Utah,0.006
 2020-03-02,Utah,0.003
 2020-03-03,Utah,0.003
@@ -10979,6 +11155,10 @@ date,state,dem_chance
 2020-10-28,Utah,0.0
 2020-10-29,Utah,0.0
 2020-10-30,Utah,0.0
+2020-10-31,Utah,0.0
+2020-11-01,Utah,0.0
+2020-11-02,Utah,0.0
+2020-11-03,Utah,0.0
 2020-03-01,Vermont,0.997
 2020-03-02,Vermont,0.996
 2020-03-03,Vermont,0.997
@@ -11223,6 +11403,10 @@ date,state,dem_chance
 2020-10-28,Vermont,1.0
 2020-10-29,Vermont,1.0
 2020-10-30,Vermont,1.0
+2020-10-31,Vermont,1.0
+2020-11-01,Vermont,1.0
+2020-11-02,Vermont,1.0
+2020-11-03,Vermont,1.0
 2020-03-01,Virginia,0.731
 2020-03-02,Virginia,0.737
 2020-03-03,Virginia,0.728
@@ -11466,7 +11650,11 @@ date,state,dem_chance
 2020-10-27,Virginia,0.995
 2020-10-28,Virginia,0.997
 2020-10-29,Virginia,0.996
-2020-10-30,Virginia,0.998
+2020-10-30,Virginia,0.996
+2020-10-31,Virginia,0.997
+2020-11-01,Virginia,0.995
+2020-11-02,Virginia,0.997
+2020-11-03,Virginia,0.997
 2020-03-01,Washington,0.938
 2020-03-02,Washington,0.931
 2020-03-03,Washington,0.932
@@ -11711,6 +11899,10 @@ date,state,dem_chance
 2020-10-28,Washington,1.0
 2020-10-29,Washington,1.0
 2020-10-30,Washington,1.0
+2020-10-31,Washington,1.0
+2020-11-01,Washington,1.0
+2020-11-02,Washington,1.0
+2020-11-03,Washington,1.0
 2020-03-01,West Virginia,0.0
 2020-03-02,West Virginia,0.0
 2020-03-03,West Virginia,0.0
@@ -11955,6 +12147,10 @@ date,state,dem_chance
 2020-10-28,West Virginia,0.0
 2020-10-29,West Virginia,0.0
 2020-10-30,West Virginia,0.0
+2020-10-31,West Virginia,0.0
+2020-11-01,West Virginia,0.0
+2020-11-02,West Virginia,0.0
+2020-11-03,West Virginia,0.0
 2020-03-01,Wisconsin,0.445
 2020-03-02,Wisconsin,0.45
 2020-03-03,Wisconsin,0.449
@@ -12198,7 +12394,11 @@ date,state,dem_chance
 2020-10-27,Wisconsin,0.969
 2020-10-28,Wisconsin,0.974
 2020-10-29,Wisconsin,0.968
-2020-10-30,Wisconsin,0.976
+2020-10-30,Wisconsin,0.969
+2020-10-31,Wisconsin,0.967
+2020-11-01,Wisconsin,0.96
+2020-11-02,Wisconsin,0.973
+2020-11-03,Wisconsin,0.98
 2020-03-01,Wyoming,0.0
 2020-03-02,Wyoming,0.0
 2020-03-03,Wyoming,0.0
@@ -12443,3 +12643,7 @@ date,state,dem_chance
 2020-10-28,Wyoming,0.0
 2020-10-29,Wyoming,0.0
 2020-10-30,Wyoming,0.0
+2020-10-31,Wyoming,0.0
+2020-11-01,Wyoming,0.0
+2020-11-02,Wyoming,0.0
+2020-11-03,Wyoming,0.0
