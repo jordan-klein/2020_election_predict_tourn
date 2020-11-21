@@ -1,58 +1,22 @@
 #### Calculate performance indices ####
 
-#### Setup
+#### Setup ####
 
 # Load packages
 library(tidyverse)
+library(DescTools)
 
-## Load data
-# Predictions
+### Load data
 setwd("data")
-Predictions_list <- lapply(list.files(), read_csv)
-names(Predictions_list) <- list.files() %>% sub("\\_.*", "", .)
+Data_full <- read_csv("predictions_outcomes_final.csv", 
+                      col_types = cols("c", "c", "D", "c", "d", "d"))
 
-# Results
-setwd("..")
-setwd("Election_results")
-Results <- read_csv("Results_fake.csv")
-
-#### Data wrangling
-
-### Create full dataset
-
-## Combine datasets from each forecaster
-
-Data_full <- bind_rows(Predictions_list)
-Data_full <- add_column(Data_full, 
-                        forecaster = rep(names(Predictions_list), sapply(Predictions_list, nrow)), 
-                        .before = "date")
-
-## Round predictions to nearest .1 (Prediction = democratic win)
-
-Data_full <- mutate(Data_full, prediction = round(dem_chance, digits = 1))
-
-### Clean data
-## Economist
-# Washington DC -> District of Columbia
-Data_full$state[Data_full$state == "Washington DC"] <- c("District of Columbia")
-
-## JHK
-# Nebraska CD -> NE, Maine CD -> ME
-Data_full <- mutate(Data_full, 
-                    state = sub("Nebraska CD", "NE", Data_full$state), 
-                    state = sub("Maine CD", "ME", state))
-
-## Drop US-wide
-Data_full <- filter(Data_full, state != "US")
-
-### Join with results data
-
-Data_full <- full_join(Data_full, Results)
+#### Analysis ####
 
 ### List & calculate indices
 
 ## Split into list by forecaster & date
-List_full <- split(Data_full, list(Data_full$forecaster, Data_full$date), drop = T)
+List_full <- split(Data_full, list(Data_full$forecaster_type, Data_full$forecaster, Data_full$date), drop = T)
 
 ## Function to calculate indices
 
@@ -93,32 +57,18 @@ List_indices <- lapply(List_full, function(df) {
 ### Combine indices calculations into dataframe
 Indices_calculated <- bind_rows(List_indices)
 Indices_calculated <- add_column(Indices_calculated, 
-                                 forecaster = rep(sub("\\..*", "", names(List_indices)), 
+                                 forecaster_type = rep(sub("\\..*", "", names(List_indices)), 
                                                   sapply(List_indices, nrow)), 
                                  .before = "PS")
+Indices_calculated <- StrExtract(names(List_indices), "\\..*.*\\.") %>% 
+  sub("\\.", "", .) %>% 
+  sub("\\.", "", .) %>%
+  add_column(Indices_calculated, forecaster = ., .before = "PS")
 Indices_calculated <- add_column(Indices_calculated, 
                                  date = rep(sub(".*\\.", "", names(List_indices)), 
                                                   sapply(List_indices, nrow)), 
                                  .before = "PS")
 
 ### Export dataset
+setwd("Election_results")
 write_csv(Indices_calculated, "index_calculation_results.csv")
-
-
-#### Misc data cleaning code ####
-
-econstates <- Predictions_list$economist$date
-econdates <- Predictions_list$economist$state
-
-jhkstates <- Predictions_list$jhk$date
-jhkdates <- Predictions_list$jhk$state
-
-Predictions_list$economist <- mutate(Predictions_list$economist, 
-                                     date = econdates, state = econstates)
-
-
-Predictions_list$jhk <- mutate(Predictions_list$jhk, 
-                                     date = jhkdates, state = jhkstates)
-
-Predictions_list$jhk <- mutate(Predictions_list$jhk, 
-                                     dem_chance = dem_chance/100, rep_chance = rep_chance/100)
