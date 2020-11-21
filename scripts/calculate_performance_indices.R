@@ -11,16 +11,15 @@ setwd("data")
 Data_full <- read_csv("predictions_outcomes_final.csv", 
                       col_types = cols("c", "c", "D", "c", "d", "d"))
 
-#### Analysis ####
+## Drop ME & NE congressional districts (not forecasted by inside elections & economist)
 
-### List & calculate indices
+Data_full <- Data_full[-grep("-", Data_full$state), ]
 
-## Split into list by forecaster & date
-List_full <- split(Data_full, list(Data_full$forecaster_type, Data_full$forecaster, Data_full$date), drop = T)
+#### Calculations ####
 
-## Function to calculate indices
+### Function to calculate indices
 
-List_indices <- lapply(List_full, function(df) {
+index_calculation <- function(df) {
   
   pi <- df$prediction
   xi <- df$outcome
@@ -52,23 +51,58 @@ List_indices <- lapply(List_full, function(df) {
   
   # Dataframe of indices
   Indices <- data.frame(PS = PS, VI = VI, CI = CI, DI = DI)
-})
+}
 
-### Combine indices calculations into dataframe
-Indices_calculated <- bind_rows(List_indices)
-Indices_calculated <- add_column(Indices_calculated, 
-                                 forecaster_type = rep(sub("\\..*", "", names(List_indices)), 
-                                                  sapply(List_indices, nrow)), 
+#### Calculate indices
+
+### By forecaster & date
+
+## Split data into lists & calculate indices
+List_forecaster <- split(Data_full, list(Data_full$forecaster, Data_full$date), drop = T) %>% 
+  lapply(index_calculation)
+
+## Combine indices calculations into dataframe
+Forecaster_indices <- bind_rows(List_forecaster)
+Forecaster_indices <- add_column(Forecaster_indices, 
+                                 forecaster = rep(sub("\\..*", "", names(List_forecaster)), 
+                                                       sapply(List_forecaster, nrow)), 
                                  .before = "PS")
-Indices_calculated <- StrExtract(names(List_indices), "\\..*.*\\.") %>% 
-  sub("\\.", "", .) %>% 
-  sub("\\.", "", .) %>%
-  add_column(Indices_calculated, forecaster = ., .before = "PS")
-Indices_calculated <- add_column(Indices_calculated, 
-                                 date = rep(sub(".*\\.", "", names(List_indices)), 
-                                                  sapply(List_indices, nrow)), 
+Forecaster_indices <- add_column(Forecaster_indices, 
+                                 date = rep(sub(".*\\.", "", names(List_forecaster)), 
+                                            sapply(List_forecaster, nrow)), 
                                  .before = "PS")
 
-### Export dataset
+## Export dataset
 setwd("Election_results")
-write_csv(Indices_calculated, "index_calculation_results.csv")
+write_csv(Forecaster_indices, "results_byforecaster.csv")
+
+### By forecaster type & date
+
+## Clean
+
+# Cut off dates before all modelers/experts have started forecasting
+Data_typeclean <- filter(Data_full, (forecaster_type == "quant_modeler" & date >= as.Date("2020-06-01")) | 
+                           (forecaster_type == "expert" & date >= as.Date("2019-03-08")) | 
+                           forecaster_type == "market")
+# Duplicate quant modelers w/ no jhk
+Data_typeclean <- filter(Data_typeclean, forecaster == "538" | forecaster == "economist") %>% 
+  mutate(forecaster_type = "quant_modeler_nojhk") %>% 
+  bind_rows(Data_typeclean, .)
+
+## Split data into lists & calculate indices
+List_forecastertype <- split(Data_typeclean, list(Data_typeclean$forecaster_type, Data_typeclean$date), drop = T) %>% 
+  lapply(index_calculation)
+
+## Combine indices calculations into dataframe
+Forecastertype_indices <- bind_rows(List_forecastertype)
+Forecastertype_indices <- add_column(Forecastertype_indices, 
+                                 forecaster_type = rep(sub("\\..*", "", names(List_forecastertype)), 
+                                                  sapply(List_forecastertype, nrow)), 
+                                 .before = "PS")
+Forecastertype_indices <- add_column(Forecastertype_indices, 
+                                 date = rep(sub(".*\\.", "", names(List_forecastertype)), 
+                                            sapply(List_forecastertype, nrow)), 
+                                 .before = "PS")
+
+## Export dataset
+write_csv(Forecaster_indices, "results_byforecastertype.csv")
