@@ -49,8 +49,11 @@ index_calculation <- function(df) {
   DI <- (nt*(bt-b)^2) %>% 
     sum()/N
   
+  # PS calculated
+  PS_calc <- VI+CI-DI
+  
   # Dataframe of indices
-  Indices <- data.frame(PS = PS, VI = VI, CI = CI, DI = DI)
+  Indices <- data.frame(PS = PS, VI = VI, CI = CI, DI = DI, PS_calc = PS_calc)
 }
 
 #### Calculate indices
@@ -105,4 +108,4 @@ Forecastertype_indices <- add_column(Forecastertype_indices,
                                  .before = "PS")
 
 ## Export dataset
-write_csv(Forecaster_indices, "results_byforecastertype.csv")
+write_csv(Forecastertype_indices, "results_byforecastertype.csv")
