@@ -166,3 +166,49 @@ mutate(ft_means, roll_DI = rollmean(DI, 7, fill = NA)) %>%
                limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
+
+### Quant modelers
+
+## CI
+filter(f_results, forecaster_type == "quant_modeler") %>% 
+  mutate(roll_CI = rollmean(CI, 7, fill = NA)) %>% 
+  ggplot(aes(y = roll_CI, x = date, color = forecaster, lty = forecaster)) + 
+  geom_path() + 
+  ylab("Calibration Index") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_color_discrete(name = "Quant Modeler", labels = c("FiveThirtyEight", "Economist", "JHK")) + 
+  scale_linetype_discrete(name = "Quant Modeler", labels = c("FiveThirtyEight", "Economist", "JHK"))
+
+## DI
+filter(f_results, forecaster_type == "quant_modeler") %>% 
+  mutate(roll_DI = rollmean(DI, 7, fill = NA)) %>% 
+  ggplot(aes(y = roll_DI, x = date, color = forecaster, lty = forecaster)) + 
+  geom_path() + 
+  ylab("Discrimination Index") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_color_discrete(name = "Quant Modeler", labels = c("FiveThirtyEight", "Economist", "JHK")) + 
+  scale_linetype_discrete(name = "Quant Modeler", labels = c("FiveThirtyEight", "Economist", "JHK"))
+
+### Experts
+
+## CI
+filter(f_results, forecaster_type == "expert") %>% 
+  ggplot(aes(y = CI, x = date, color = forecaster, lty = forecaster)) + 
+  geom_path() + 
+  ylab("Calibration Index") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_color_discrete(name = "Expert", labels = c("Cook", "Inside Elections", "Sabato")) + 
+  scale_linetype_discrete(name = "Expert", labels = c("Cook", "Inside Elections", "Sabato"))
+
+## DI
+filter(f_results, forecaster_type == "expert") %>% 
+  ggplot(aes(y = DI, x = date, color = forecaster, lty = forecaster)) + 
+  geom_path() + 
+  ylab("Discrimination Index") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_color_discrete(name = "Expert", labels = c("Cook", "Inside Elections", "Sabato")) + 
+  scale_linetype_discrete(name = "Expert", labels = c("Cook", "Inside Elections", "Sabato"))
