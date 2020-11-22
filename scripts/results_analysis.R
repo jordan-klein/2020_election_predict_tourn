@@ -26,6 +26,10 @@ f_results <- mutate(f_results, forecaster_type =
                                 forecaster == "cook" | forecaster == "sabato" | forecaster == "inside" ~ "expert", 
                                 forecaster == "predictit" ~ "market"))
 
+# Cut off dates before June 1, 2020
+# f_results <- filter(f_results, date >= as.Date("2020-06-01"))
+# ft_results <- filter(ft_results, date >= as.Date("2020-06-01"))
+
 #### Graphing ####
 
 #### Election day forecasts
@@ -89,8 +93,8 @@ ggplot(ft_results_eday, aes(x = 1-CI, y = DI, color = forecaster_type, shape = f
 ggplot(f_results, aes(y = PS, x = date, color = forecaster_type, lty = forecaster)) + 
   geom_path() + 
   ylab("Probability Score") + 
-  scale_x_date(date_labels = "%m-%Y", date_breaks = "3 months", 
-               limit=c(as.Date("2019-01-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(limits = c("cook", "inside", "sabato", "predictit", "economist", "538", "jhk"), 
                      name = "Forecaster Outlet", 
@@ -102,8 +106,8 @@ ggplot(f_results, aes(y = PS, x = date, color = forecaster_type, lty = forecaste
 ggplot(f_results, aes(y = CI, x = date, color = forecaster_type, lty = forecaster)) + 
   geom_path() + 
   ylab("Calibration Index") + 
-  scale_x_date(date_labels = "%m-%Y", date_breaks = "3 months", 
-               limit=c(as.Date("2019-01-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(limits = c("cook", "inside", "sabato", "predictit", "economist", "538", "jhk"), 
                           name = "Forecaster Outlet", 
@@ -115,8 +119,8 @@ ggplot(f_results, aes(y = CI, x = date, color = forecaster_type, lty = forecaste
 ggplot(f_results, aes(y = DI, x = date, color = forecaster_type, lty = forecaster)) + 
   geom_path() + 
   ylab("Discrimination Index") + 
-  scale_x_date(date_labels = "%m-%Y", date_breaks = "3 months", 
-               limit=c(as.Date("2019-01-01"),as.Date("2020-11-03")), name = "Date") + 
+  scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(limits = c("cook", "inside", "sabato", "predictit", "economist", "538", "jhk"), 
                           name = "Forecaster Outlet", 
@@ -131,7 +135,7 @@ ggplot(ft_results, aes(y = PS, x = date, color = forecaster_type, lty = forecast
   geom_path() + 
   ylab("Probability Score") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "2 months", 
-               limit=c(as.Date("2019-03-08"),as.Date("2020-11-03")), name = "Date") + 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
 
@@ -140,7 +144,7 @@ ggplot(ft_results, aes(y = CI, x = date, color = forecaster_type, lty = forecast
   geom_path() + 
   ylab("Calibration Index") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "2 months", 
-               limit=c(as.Date("2019-03-08"),as.Date("2020-11-03")), name = "Date") + 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
 
@@ -149,6 +153,7 @@ ggplot(ft_results, aes(y = DI, x = date, color = forecaster_type, lty = forecast
   geom_path() + 
   ylab("Discrimination Index") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "2 months", 
-               limit=c(as.Date("2019-03-08"),as.Date("2020-11-03")), name = "Date") + 
+               limit=c(as.Date("2020-06-01"),as.Date("2020-11-03")), name = "Date") + 
   scale_color_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler")) + 
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
+
