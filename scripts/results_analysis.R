@@ -4,6 +4,7 @@
 
 # Load packages
 library(tidyverse)
+library(zoo)
 
 ### Load data
 setwd("data/Election_results")
@@ -137,7 +138,8 @@ ggplot(ft_means_eday, aes(x = 1-CI, y = DI, color = forecaster_type, shape = for
 ### Forecaster types
 
 ## PS
-ggplot(ft_means, aes(y = PS, x = date, color = forecaster_type, lty = forecaster_type)) + 
+mutate(ft_means, roll_PS = rollmean(PS, 7, fill = NA)) %>% 
+  ggplot(aes(y = roll_PS, x = date, color = forecaster_type, lty = forecaster_type)) + 
   geom_path() + 
   ylab("Probability Score") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
@@ -146,7 +148,8 @@ ggplot(ft_means, aes(y = PS, x = date, color = forecaster_type, lty = forecaster
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
 
 ## CI
-ggplot(ft_means, aes(y = CI, x = date, color = forecaster_type, lty = forecaster_type)) + 
+mutate(ft_means, roll_CI = rollmean(CI, 7, fill = NA)) %>% 
+  ggplot(aes(y = roll_CI, x = date, color = forecaster_type, lty = forecaster_type)) + 
   geom_path() + 
   ylab("Calibration Index") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
@@ -155,7 +158,8 @@ ggplot(ft_means, aes(y = CI, x = date, color = forecaster_type, lty = forecaster
   scale_linetype_discrete(name = "Forecaster Type", labels = c("Expert", "Prediction market", "Quant modeler"))
 
 ## DI
-ggplot(ft_means, aes(y = DI, x = date, color = forecaster_type, lty = forecaster_type)) + 
+mutate(ft_means, roll_DI = rollmean(DI, 7, fill = NA)) %>% 
+  ggplot(aes(y = roll_DI, x = date, color = forecaster_type, lty = forecaster_type)) + 
   geom_path() + 
   ylab("Discrimination Index") + 
   scale_x_date(date_labels = "%m-%Y", date_breaks = "1 month", 
